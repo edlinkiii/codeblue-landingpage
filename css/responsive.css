@@ -55,6 +55,9 @@
 
 /*** media queries for extra-small displays *************/
 @media(max-width: 767px) {
+  html {
+    font-size: 55%;
+  }
     /*** navbar ***/
     .navbar {
       background: rgba(16, 60, 99, 1);
@@ -117,16 +120,25 @@
     #footer-copyrights {
         text-align: center;
     }
+    /* .initial-statement {
+      font-size: 1.5rem;
+    } */
 }
 
 @media(max-width: 480px) {
+  html {
+    font-size: 48%;
+  }
+
   #home img {
     max-width: 100%;
   }
+  /* .initial-statement {
+    font-size: 1rem;
+  } */
 }
 
 @media(max-width: 320px) {
-    
     /*** service ***/
     .service-item-icon {
         width: 58px;
