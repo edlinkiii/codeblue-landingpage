@@ -310,6 +310,41 @@ a.btn.learn-more {
   margin-top: 60px;
 }
 
+/*** vcm *****************************/
+#vcm {
+}
+
+#vcm h4 {
+  color: var(--color-dark-blue);
+  /* font-family: Intro; */
+  font-size: 36px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+#vcm h5 {
+  color: var(--color-blue);
+  font-size: 28px;
+  text-align: center;
+}
+
+#vcm .row {
+  margin-bottom: 30px;
+}
+
+#vcm img {
+  max-width: 90%;
+}
+
+#vcm p {
+  font-size: 20px;
+  text-align: center;
+}
+
+#vcm a.btn {
+  margin-top: 60px;
+}
+
 /*** aboutus *****************************/
 #aboutus {
 }
