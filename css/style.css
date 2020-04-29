@@ -183,7 +183,8 @@ a.btn.learn-more {
 .content-box h4 {
   text-transform: uppercase;
   color: var(--color-dark-blue);
-  font-family: Intro;
+  font-weight: bold;
+  /* font-family: Intro; */
   font-size: 3rem;
   text-align: center;
 }
@@ -438,4 +439,13 @@ form .form-control {
 
 section.mb-50 {
   margin-bottom: 50px;
+}
+
+
+.border {
+  border: 1px solid #aaa;
+}
+
+.shadow {
+  box-shadow: #406f99  3px 3px 8px;
 }
