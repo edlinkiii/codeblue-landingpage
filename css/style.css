@@ -214,6 +214,10 @@ a.btn.learn-more {
   /* margin-top: 60px; */
 }
 
+#home-heading img {
+  max-width: 400px;
+}
+
 /*** SERVICES ****************************/
 .service-item {
     padding: 2rem 0;
@@ -447,5 +451,5 @@ section.mb-50 {
 }
 
 .shadow {
-  box-shadow: #406f99  3px 3px 8px;
+  box-shadow: #406f99  1px 1px 4px;
 }
