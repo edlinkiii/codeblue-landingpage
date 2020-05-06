@@ -298,6 +298,23 @@ footer {
     border-top: 5px solid rgba(0, 0, 0, 0.1);
 }
 
+footer ul {
+  list-style: none;
+}
+
+footer ul li {
+  font-size: 1.6rem;
+}
+
+footer ul li a,
+footer a {
+  color: white;
+}
+
+footer a:hover {
+  color: white;
+}
+
 #contact-left h3,
 #contact-right h3 {
     color: white;
@@ -397,7 +414,7 @@ form .form-control {
 }
 
 .site-nav-wrapper {
-    padding: 0 85px;
+    padding: 0 25px;
 }
 
 .navbar-nav {
