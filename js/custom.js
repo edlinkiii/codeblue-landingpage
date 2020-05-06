@@ -1,13 +1,13 @@
 $(function () {
     new WOW().init();
 
-    $("#work").magnificPopup({
-        delegate: 'a',
-        type: 'image',
-        gallery: {
-            enabled: true
-        }
-    });
+    // $("#work").magnificPopup({
+    //     delegate: 'a',
+    //     type: 'image',
+    //     gallery: {
+    //         enabled: true
+    //     }
+    // });
 
     $("#team-members").owlCarousel({
         items: 4,
