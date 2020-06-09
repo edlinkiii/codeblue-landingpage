@@ -202,7 +202,7 @@ a.btn.learn-more {
 }
 
 .content-box img {
-  max-width: 90%;
+  max-width: 100%;
 }
 
 .content-box p {
@@ -220,11 +220,22 @@ a.btn.learn-more {
 }
 
 /*** SERVICES ****************************/
+.container {
+  padding: 0;
+}
+.service-item-container {
+  padding: 0;
+  margin: 0;
+}
 .service-item {
-    padding: 2rem 0;
+    padding: 0;
     /* margin-bottom: 2rem; */
     /* cursor: pointer; */
     /* height: 200px; */
+}
+.service-item-content {
+  padding: 10px 20px;
+  margin: 0;
 }
 
 /*** WORK **************************************/
